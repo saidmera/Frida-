@@ -1,0 +1,5 @@
+{
+  "name": "Frida",
+  "description": "A privacy-focused offline dating simulator inspired by the Moroccan concept of 'Frida'—finding your perfect other half.",
+  "requestFramePermissions": ["geolocation", "microphone"]
+}

@@ -1,0 +1,405 @@
+[
+  {
+    "question_id": 1,
+    "area": "emotional_intelligence",
+    "question": {
+      "en": "How do you usually react when your partner is having a bad day?",
+      "fr": "Comment réagissez-vous habituellement quand votre partenaire passe une mauvaise journée ?",
+      "ar": "كيف تكون ردة فعلك عادةً عندما يمر شريكك بيوم سيء؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Listen deeply and offer emotional support", "fr": "Écouter attentivement et offrir un soutien émotionnel", "ar": "الاستماع بعمق وتقديم الدعم العاطفي" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Try to find practical solutions immediately", "fr": "Essayer de trouver des solutions pratiques immédiatement", "ar": "محاولة إيجاد حلول عملية على الفور" },
+        "weight": 3
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Give them space to process on their own", "fr": "Leur laisser de l'espace pour réfléchir seuls", "ar": "منحهم مساحة للتفكير بمفردهم" },
+        "weight": 2
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "Use humor to cheer them up", "fr": "Utiliser l'humour pour leur remonter le moral", "ar": "استخدام الفكاهة لتحسين مزاجهم" },
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question_id": 2,
+    "area": "humor",
+    "question": {
+      "en": "What kind of humor do you appreciate most?",
+      "fr": "Quel genre d'humour appréciez-vous le plus ?",
+      "ar": "ما هو نوع الفكاهة الذي تقدره أكثر؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Witty and intellectual", "fr": "Spirituel et intellectuel", "ar": "ذكي وفكري" },
+        "weight": 4
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Sarcastic and dark", "fr": "Sarcastique et noir", "ar": "ساخر وسوداوي" },
+        "weight": 3
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Silly and slapstick", "fr": "Bouffon et absurde", "ar": "سخيف وهزلي" },
+        "weight": 2
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "Observational and relatable", "fr": "Observationnel et familier", "ar": "مبني على الملاحظة وواقعي" },
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "question_id": 3,
+    "area": "social_preferences",
+    "question": {
+      "en": "How would you describe your social battery?",
+      "fr": "Comment décririez-vous votre batterie sociale ?",
+      "ar": "كيف تصف طاقتك الاجتماعية؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Extrovert: I gain energy from crowds", "fr": "Extraverti : Je gagne de l'énergie au contact des foules", "ar": "منفتح: أستمد طاقتي من التجمعات" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Introvert: I need quiet time to recharge", "fr": "Introverti : J'ai besoin de calme pour recharger mes batteries", "ar": "منطوٍ: أحتاج لوقت هادئ لأشحن طاقتي" },
+        "weight": 1
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Ambivert: It depends on the day and the people", "fr": "Ambiverti : Cela dépend du jour et des personnes", "ar": "متردد بين الانفتاح والانطواء: يعتمد ذلك على اليوم والأشخاص" },
+        "weight": 3
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "Social butterfly: I love meeting new people constantly", "fr": "Papillon social : J'adore rencontrer de nouvelles personnes constamment", "ar": "اجتماعي جداً: أحب مقابلة أشخاص جدد باستمرار" },
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question_id": 4,
+    "area": "lifestyle",
+    "question": {
+      "en": "What is your ideal weekend morning?",
+      "fr": "Quel est votre matin de week-end idéal ?",
+      "ar": "كيف يكون صباح عطلة نهاية الأسبوع المثالي بالنسبة لك؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Sleeping in and a slow brunch", "fr": "Grasse matinée et brunch tranquille", "ar": "النوم المتأخر وفطور متأخر هادئ" },
+        "weight": 2
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Early workout or outdoor activity", "fr": "Entraînement matinal ou activité en plein air", "ar": "تمرين صباحي مبكر أو نشاط خارجي" },
+        "weight": 5
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Reading a book with coffee", "fr": "Lire un livre avec un café", "ar": "قراءة كتاب مع القهوة" },
+        "weight": 1
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "Planning the day's adventures", "fr": "Planifier les aventures de la journée", "ar": "التخطيط لمغامرات اليوم" },
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question_id": 5,
+    "area": "relationship_expectations",
+    "question": {
+      "en": "What is your primary goal in a relationship right now?",
+      "fr": "Quel est votre objectif principal dans une relation en ce moment ?",
+      "ar": "ما هو هدفك الأساسي من العلاقة في الوقت الحالي؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Long-term commitment and marriage", "fr": "Engagement à long terme et mariage", "ar": "التزام طويل الأمد وزواج" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Casual dating and exploring", "fr": "Rencontres décontractées et exploration", "ar": "مواعدة غير رسمية واستكشاف" },
+        "weight": 1
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Finding a best friend and partner", "fr": "Trouver un meilleur ami et partenaire", "ar": "إيجاد أفضل صديق وشريك" },
+        "weight": 4
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "Seeing where things go naturally", "fr": "Voir où les choses mènent naturellement", "ar": "رؤية إلى أين ستسير الأمور بشكل طبيعي" },
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "question_id": 6,
+    "area": "emotional_intelligence",
+    "question": {
+      "en": "How do you handle disagreements?",
+      "fr": "Comment gérez-vous les désaccords ?",
+      "ar": "كيف تتعامل مع الخلافات؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Calm discussion until resolved", "fr": "Discussion calme jusqu'à résolution", "ar": "نقاش هادئ حتى الحل" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Need time alone before talking", "fr": "Besoin de temps seul avant de parler", "ar": "أحتاج لوقت بمفردي قبل التحدث" },
+        "weight": 3
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Express feelings immediately and intensely", "fr": "Exprimer ses sentiments immédiatement et intensément", "ar": "التعبير عن المشاعر فوراً وبقوة" },
+        "weight": 2
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "Avoid conflict if possible", "fr": "Éviter le conflit si possible", "ar": "تجنب الصراع إذا كان ذلك ممكناً" },
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question_id": 7,
+    "area": "lifestyle",
+    "question": {
+      "en": "How important is fitness and health in your life?",
+      "fr": "Quelle est l'importance de la forme physique et de la santé dans votre vie ?",
+      "ar": "ما مدى أهمية اللياقة البدنية والصحة في حياتك؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Top priority, I exercise daily", "fr": "Priorité absolue, je m'entraîne quotidiennement", "ar": "أولوية قصوى، أتمرن يومياً" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Moderately important, I try to stay active", "fr": "Modérément important, j'essaie de rester actif", "ar": "مهمة باعتدال، أحاول البقاء نشطاً" },
+        "weight": 3
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "I prefer other hobbies over exercise", "fr": "Je préfère d'autres loisirs à l'exercice", "ar": "أفضل هوايات أخرى على التمارين الرياضية" },
+        "weight": 1
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "Health is important, but I'm not a gym person", "fr": "La santé est importante, mais je ne suis pas adepte de la salle de sport", "ar": "الصحة مهمة، لكنني لست من محبي الصالات الرياضية" },
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "question_id": 8,
+    "area": "personality",
+    "question": {
+      "en": "Are you more of a planner or spontaneous?",
+      "fr": "Êtes-vous plutôt prévoyant ou spontané ?",
+      "ar": "هل أنت شخص مخطط أم عفوي؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "I plan everything in advance", "fr": "Je planifie tout à l'avance", "ar": "أخطط لكل شيء مسبقاً" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "I love spontaneous adventures", "fr": "J'adore les aventures spontanées", "ar": "أحب المغامرات العفوية" },
+        "weight": 1
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "A mix of both", "fr": "Un mélange des deux", "ar": "مزيج من الاثنين" },
+        "weight": 3
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "I go with the flow", "fr": "Je me laisse porter par le courant", "ar": "أسير مع التيار" },
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "question_id": 9,
+    "area": "intimacy",
+    "question": {
+      "en": "What is your view on physical affection in public?",
+      "fr": "Quelle est votre opinion sur les marques d'affection physiques en public ?",
+      "ar": "ما هو رأيك في المودة الجسدية في الأماكن العامة؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "I love PDA (Public Display of Affection)", "fr": "J'adore les marques d'affection en public", "ar": "أحب إظهار المودة في الأماكن العامة" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "I prefer to keep it private", "fr": "Je préfère garder cela privé", "ar": "أفضل إبقاء الأمر خاصاً" },
+        "weight": 1
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Small gestures like holding hands are fine", "fr": "Les petits gestes comme se tenir la main me conviennent", "ar": "الإيماءات الصغيرة مثل إمساك الأيدي جيدة" },
+        "weight": 3
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "It depends on the setting", "fr": "Cela dépend du contexte", "ar": "يعتمد ذلك على المكان" },
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "question_id": 10,
+    "area": "social_preferences",
+    "question": {
+      "en": "What's your ideal date night?",
+      "fr": "Quelle est votre soirée de rendez-vous idéale ?",
+      "ar": "كيف تكون ليلة الموعد المثالية بالنسبة لك؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "A busy restaurant or club", "fr": "Un restaurant animé ou un club", "ar": "مطعم مزدحم أو نادٍ" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "A quiet dinner at home", "fr": "Un dîner tranquille à la maison", "ar": "عشاء هادئ في المنزل" },
+        "weight": 1
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "A walk in the park or beach", "fr": "Une promenade au parc ou à la plage", "ar": "نزهة في الحديقة أو الشاطئ" },
+        "weight": 3
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "An activity like bowling or a movie", "fr": "Une activité comme le bowling ou un film", "ar": "نشاط مثل البولينج أو فيلم" },
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "question_id": 11,
+    "area": "lifestyle",
+    "question": {
+      "en": "How do you manage your finances?",
+      "fr": "Comment gérez-vous vos finances ?",
+      "ar": "كيف تدير أمورك المالية؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Strict budgeter and saver", "fr": "Budget strict et épargne", "ar": "ميزانية صارمة وادخار" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Spender, I enjoy life now", "fr": "Dépensier, je profite de la vie maintenant", "ar": "منفق، أستمتع بالحياة الآن" },
+        "weight": 1
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Balanced, save some spend some", "fr": "Équilibré, j'épargne un peu et je dépense un peu", "ar": "متوازن، أدخر البعض وأنفق البعض" },
+        "weight": 3
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "I don't really track it", "fr": "Je ne suis pas vraiment mes dépenses", "ar": "أنا لا أتتبعها حقاً" },
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "question_id": 12,
+    "area": "relationship_expectations",
+    "question": {
+      "en": "How often do you need communication from your partner?",
+      "fr": "À quelle fréquence avez-vous besoin de communication de la part de votre partenaire ?",
+      "ar": "كم مرة تحتاج إلى التواصل من شريكك؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Constant throughout the day", "fr": "Constante tout au long de la journée", "ar": "مستمر طوال اليوم" },
+        "weight": 5
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "A few check-ins is enough", "fr": "Quelques nouvelles suffisent", "ar": "يكفي القليل من الاطمئنان" },
+        "weight": 3
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Mainly in the evenings", "fr": "Principalement le soir", "ar": "بشكل أساسي في المساء" },
+        "weight": 2
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "I value my independence and space", "fr": "J'apprécie mon indépendance et mon espace", "ar": "أقدر استقلالي ومساحتي" },
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "question_id": 13,
+    "area": "icebreaker",
+    "question": {
+      "en": "If you could travel anywhere tomorrow, where would it be?",
+      "fr": "Si vous pouviez voyager n'importe où demain, où iriez-vous ?",
+      "ar": "إذا كان بإمكانك السفر إلى أي مكان غداً، فأين سيكون؟"
+    },
+    "options": [
+      {
+        "option_id": 1,
+        "text": { "en": "Tropical beach paradise", "fr": "Plage tropicale paradisiaque", "ar": "جنة شاطئية استوائية" },
+        "weight": 0
+      },
+      {
+        "option_id": 2,
+        "text": { "en": "Historical European city", "fr": "Ville européenne historique", "ar": "مدينة أوروبية تاريخية" },
+        "weight": 0
+      },
+      {
+        "option_id": 3,
+        "text": { "en": "Mountain hiking adventure", "fr": "Aventure de randonnée en montagne", "ar": "مغامرة المشي لمسافات طويلة في الجبال" },
+        "weight": 0
+      },
+      {
+        "option_id": 4,
+        "text": { "en": "Bustling Asian metropolis", "fr": "Métropole asiatique animée", "ar": "مدينة آسيوية صاخبة" },
+        "weight": 0
+      }
+    ]
+  }
+]
