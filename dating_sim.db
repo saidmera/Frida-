@@ -1,0 +1,25 @@
+CREATE TABLE IF NOT EXISTS profiles (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  age INTEGER,
+  gender TEXT,
+  body_type TEXT,
+  personality TEXT, -- JSON array
+  lifestyle TEXT,   -- JSON array
+  test_results TEXT, -- JSON object {area: score}
+  bio TEXT,
+  interests TEXT,   -- JSON array
+  image TEXT,
+  latitude REAL,
+  longitude REAL,
+  city TEXT
+);
+
+CREATE TABLE IF NOT EXISTS messages (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  profile_id INTEGER,
+  sender TEXT, -- 'user', 'bot'
+  content TEXT,
+  type TEXT DEFAULT 'text', -- 'text', 'sticker', 'emoji'
+  timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
