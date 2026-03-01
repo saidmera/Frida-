@@ -20,15 +20,13 @@ jobs:
           node-version: 18
           cache: "npm"
 
-# Step 3: Clean install dependencies and fix native bindings
+      # Step 3: Clean install dependencies and fix native bindings
       - name: Clean install dependencies
         run: |
           rm -rf node_modules package-lock.json
           npm install --legacy-peer-deps
-          # This line is the fix: it forces the install of the Linux-specific compiler
           npm install @tailwindcss/oxide-linux-x64-gnu 
           npm rebuild esbuild
-        working-directory: ./
         working-directory: ./
 
       # Step 4: Build Vite Project
@@ -41,9 +39,11 @@ jobs:
       # Step 5: Install Capacitor and setup Android
       - name: Install Capacitor
         run: |
-          npm install @capacitor/core @capacitor/cli
-          npx cap init Frida com.saidmera.frida --web-dir=dist
-          npx cap add android
+          npm install @capacitor/core @capacitor/cli @capacitor/android
+          if [ ! -d "android" ]; then
+            npx cap init Frida com.saidmera.frida --web-dir=dist
+            npx cap add android
+          fi
           npx cap sync android
         working-directory: ./
 
