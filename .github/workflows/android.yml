@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
+          # Removed cache: "npm" temporarily to ensure a clean install with your manual fixes
 
       - name: Install Dependencies
         run: |
@@ -28,11 +28,11 @@ jobs:
       - name: Build Vite Project
         run: npm run build
 
-      - name: Setup Java 17
+      - name: Setup Java 21
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '21'
 
       - name: Install Capacitor & Sync
         run: |
